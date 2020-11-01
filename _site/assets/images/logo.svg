@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1213" height="243" viewBox="0 0 1213 243">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_9" data-name="Rectangle 9" width="1345" height="269" transform="translate(0 -0.281)"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="clip-Artboard_3">
+      <rect width="1213" height="243"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_3" data-name="Artboard – 3" clip-path="url(#clip-Artboard_3)">
+    <g id="Artboard_3-2" data-name="Artboard – 3" transform="translate(0 0.281)" clip-path="url(#clip-path)">
+      <g id="Group_4" data-name="Group 4" transform="translate(50.345 -0.281)">
+        <text id="Crossfade" transform="translate(201.354 191)" fill="#fff" font-size="196" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700" letter-spacing="-0.02em"><tspan x="0" y="0">C</tspan><tspan y="0" letter-spacing="0.016em">r</tspan><tspan y="0">o</tspan><tspan y="0" letter-spacing="-0.004em">s</tspan><tspan y="0" letter-spacing="0.006em">s</tspan><tspan y="0" letter-spacing="-0.004em">f</tspan><tspan y="0" letter-spacing="-0.024em">a</tspan><tspan y="0">d</tspan><tspan y="0" letter-spacing="-0.024em">e</tspan></text>
+        <g id="Group_1" data-name="Group 1" transform="translate(86.203 46.296)">
+          <path id="Union_1" data-name="Union 1" d="M0,117.677V34.495a34.481,34.481,0,0,1,68.962,0v83.182a34.481,34.481,0,0,1-68.962,0Z" transform="translate(0 1.379)" opacity="0.5" fill="url(#linear-gradient)"/>
+          <ellipse id="Ellipse_3" data-name="Ellipse 3" cx="33.77" cy="35.238" rx="33.77" ry="35.238" transform="translate(1.892 0)" fill="#fff"/>
+        </g>
+        <g id="Group_3" data-name="Group 3" transform="translate(68.962 199.833) rotate(180)">
+          <path id="Union_1-2" data-name="Union 1" d="M0,117.663V34.481a34.481,34.481,0,0,1,68.962,0v83.182a34.481,34.481,0,0,1-68.962,0Z" transform="translate(0 0)" opacity="0.5" fill="url(#linear-gradient)"/>
+          <ellipse id="Ellipse_3-2" data-name="Ellipse 3" cx="33.77" cy="33.769" rx="33.77" ry="33.769" transform="translate(1.423 0.841)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

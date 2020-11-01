@@ -1,0 +1,30 @@
+<!-- Wrapper -->
+<div id="wrapper">
+
+<!-- Header -->
+<header  {% if page.layout == "landing" %} class="alt style2"{% endif %}{% if page.layout == "home" %} class="alt"{% endif %}>
+	<a href="{{ "" | absolute_url }}" id="header-logo-container">
+		<!-- <h3>Haynes Effects</h3> -->
+		<img id="header-logo" src="{{ 'assets/images/logo.svg' | relative_url }}">
+	</a>
+</header>
+
+<!-- Menu -->
+<nav id="menu">
+	<ul class="links">
+        {% for page in site.pages %}
+		    {% if page.layout == "home" %}
+		        <li><a href="{{ "" | absolute_url }}">{{ page.title }}</a></li>
+	    	{% endif %}
+		{% endfor %}
+		{% for page in site.html_pages %}
+		    {% if page.layout != "home" and page.nav-menu == true %}
+		        <li><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></li>
+		    {% endif %}
+		{% endfor %}
+	</ul>
+	<ul class="actions vertical">
+		<li><a href="../book" class="button special fit">Book the band</a></li>
+		<li><a href="#" class="button fit">Log In</a></li>
+	</ul>
+</nav>

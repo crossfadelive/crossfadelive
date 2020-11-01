@@ -1,0 +1,41 @@
+# site settings
+title: Crossfade Ltd
+subtitle: 2020
+email: john@crossfade.live
+description:  
+baseurl: "" # the subpath of your site, e.g. /blog
+author:
+street_address: 
+city: 
+state: 
+zip_code: 
+country: 
+phone: 
+permalink: /:title/
+
+# homepage tiles
+tiles-source: posts # accepts "posts" or "pages"
+tiles-count: 4
+
+# social settings
+500px_url:
+facebook_url: 
+github_url:
+gitlab_url: 
+googleplus_url: 
+instagram_url: instagram.com/crossfade.live
+linkedin_url: 
+pinterest_url:
+slack_url:
+twitter_url: 
+
+# build settings
+markdown: kramdown
+
+sass:
+  style: compressed
+
+# sitemap
+url: "https://crossfade..live" # the base hostname & protocol for your site
+plugins:
+  - jekyll-sitemap

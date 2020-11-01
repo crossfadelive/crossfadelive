@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+    {% include head.html %}
+
+    <video autoplay muted loop class="videoBG">
+	  <source src="assets/video/background.mp4" type="video/mp4">
+	</video>
+
+    <body>
+    	<div class="videobackground">
+	        {% include header.html %}
+	        <div class="flexcontainer">
+		        {{ content }}
+		    </div>
+	        {% include footer.html %}
+    	</div>
+	</body>
+</html>
