@@ -36,6 +36,6 @@ sass:
   style: compressed
 
 # sitemap
-url: "https://crossfade..live" # the base hostname & protocol for your site
+url: "https://crossfade.live" # the base hostname & protocol for your site
 plugins:
   - jekyll-sitemap
