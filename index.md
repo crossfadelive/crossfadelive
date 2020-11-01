@@ -14,9 +14,9 @@ show_tile: false
                 <h1 style="margin-bottom: 0;">Your live stream.<br/>Our specialist crew.</h1>
                 <p style="margin-top:2em;">Crossfade is a UK production company that specialises in simulcasting live music to Facebook and YouTube.</p>
             </div>
-            <div class="6u 12u$(small)">
+            <!-- <div class="6u 12u$(small)">
                 <img style="width:100%" src="{{ 'assets/images/haynes-effects--positional-boost--pb-1--top.jpg' | relative_url }}">
-            </div>
+            </div> -->
         </section>
     </div>
 </div>
