@@ -8,7 +8,7 @@ show_tile: false
 
 <!-- INTRO -->
 <div id="main" class="alt">
-    <div class="inner" style="padding-top:2em;">
+    <div class="inner flexcontainer">
         <section class="row uniform">
             <div class="6u 12u$(small)">
                 <h1 style="margin-bottom: 0;">Your live stream.<br/>Our specialist crew.</h1>
