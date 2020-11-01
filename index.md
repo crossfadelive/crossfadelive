@@ -8,15 +8,15 @@ show_tile: false
 
 <!-- INTRO -->
 <div id="main" class="alt">
-    <div class="inner flexcontainer">
-        <section class="row uniform">
+    <div class="inner">
+        <section class="flexcontainer row uniform">
             <div class="6u 12u$(small)">
-                <h1 style="margin-bottom: 0;">Your live stream.<br/>Our specialist crew.</h1>
+                <h1 style="margin-bottom: 0;">Your live stream.<br/>Our specialist production crew.</h1>
                 <p style="margin-top:2em;">Crossfade is a UK production company that specialises in simulcasting live music to Facebook and YouTube.</p>
             </div>
-            <!-- <div class="6u 12u$(small)">
-                <img style="width:100%" src="{{ 'assets/images/haynes-effects--positional-boost--pb-1--top.jpg' | relative_url }}">
-            </div> -->
+            <div class="6u 12u$(small)" style="text-align: right">
+                <img style="height:50vh" src="{{ 'assets/images/phone.svg' | relative_url }}">
+            </div>
         </section>
     </div>
 </div>
