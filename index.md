@@ -44,7 +44,7 @@ show_tile: false
 
 <script>
     function ticker() {
-        var tickerCount = document.getElementById("ticker").innerHTML;
+        var tickerCount = 203;
         console.log(tickerCount);
 
         setInterval(function() {
