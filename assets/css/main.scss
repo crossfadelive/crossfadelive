@@ -22,6 +22,23 @@
   	flex-direction: row;
   	align-items: center;
   	justify-content: center;
+  	flex-wrap:wrap;
+}
+
+.flex-inner {
+	padding: 0;
+
+	@include breakpoint(small) {
+		padding: 2em;
+		width: 100%;
+	}
+}
+
+.phone {
+	height: 50vh;
+	@include breakpoint(small) {
+		width:100%;
+	}
 }
 
 .videobackground {

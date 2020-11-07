@@ -28,6 +28,11 @@ header {
 	display:block;
 	margin:0;
 	width:18%;
+
+	@include breakpoint(small) {
+		width: 50%;
+		height: 50%;
+	}
 }
 
 
